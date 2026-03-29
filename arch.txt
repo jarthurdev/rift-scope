@@ -1,0 +1,25 @@
+src/
+ ├── controllers/
+ │    └── player.controller.ts
+ │
+ ├── services/
+ │    ├── player.service.ts
+ │    └── riot/
+ │         ├── account.service.ts
+ │         └── match.service.ts
+ │
+ ├── dtos/
+ │    └── player.dto.ts
+ │
+ ├── utils/
+ │    ├── stats.util.ts
+ │    └── cache.util.ts
+ │
+ ├── config/
+ │    └── riot.config.ts
+ │
+ ├── routes/
+ │    └── player.routes.ts
+ │
+ ├── app.ts
+ └── server.ts
