@@ -1,0 +1,30 @@
+{
+  "name": "rift-scope",
+  "version": "1.0.0",
+  "description": "RiftScope é uma API para análise de desempenho de jogadores de League of Legends, construída sobre a API oficial da Riot Games.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarthurdev/rift-scope.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/jarthurdev/rift-scope/issues"
+  },
+  "homepage": "https://github.com/jarthurdev/rift-scope#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.0",
+    "express": "^5.2.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^6.0.2"
+  }
+}
